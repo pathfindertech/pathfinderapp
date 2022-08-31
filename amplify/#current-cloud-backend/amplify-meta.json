@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pathfinderreact-dev-225643-authRole",
+      "UnauthRoleArn": "arn:aws:iam::042174868503:role/amplify-pathfinderreact-dev-225643-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::042174868503:role/amplify-pathfinderreact-dev-225643-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pathfinderreact-dev-225643-deployment",
+      "UnauthRoleName": "amplify-pathfinderreact-dev-225643-unauthRole",
+      "StackName": "amplify-pathfinderreact-dev-225643",
+      "StackId": "arn:aws:cloudformation:us-east-1:042174868503:stack/amplify-pathfinderreact-dev-225643/8b60d760-28d8-11ed-9f24-0e4e6f0f2121",
+      "AmplifyAppId": "d1j9qfgrsid8lp"
+    }
+  },
+  "auth": {
+    "pathfinderreact8d221df7": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pathfinderreact-dev-225643-deployment/amplify-cfn-templates/auth/pathfinderreact8d221df7-cloudformation-template.json",
+        "logicalId": "authpathfinderreact8d221df7"
+      },
+      "lastPushTimeStamp": "2022-08-31T03:31:15.368Z",
+      "output": {
+        "UserPoolId": "us-east-1_wyRTajbPF",
+        "AppClientIDWeb": "1v42acvf0q4qomo66kogqq8djr",
+        "AppClientID": "1tarpsej39cbo40k6vjvndvr94",
+        "IdentityPoolId": "us-east-1:4b646d41-5695-4b78-8df5-3d7526e0d0dc",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:042174868503:userpool/us-east-1_wyRTajbPF",
+        "IdentityPoolName": "pathfinderreact8d221df7_identitypool_8d221df7__dev",
+        "UserPoolName": "pathfinderreact8d221df7_userpool_8d221df7"
+      },
+      "lastPushDirHash": "1I/RxoIEjlBDKQ+Jb79VSKOJTjk="
+    }
+  }
+}
