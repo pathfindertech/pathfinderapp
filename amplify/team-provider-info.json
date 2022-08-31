@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pathfinderreact-dev-225643-authRole",
+      "UnauthRoleArn": "arn:aws:iam::042174868503:role/amplify-pathfinderreact-dev-225643-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::042174868503:role/amplify-pathfinderreact-dev-225643-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pathfinderreact-dev-225643-deployment",
+      "UnauthRoleName": "amplify-pathfinderreact-dev-225643-unauthRole",
+      "StackName": "amplify-pathfinderreact-dev-225643",
+      "StackId": "arn:aws:cloudformation:us-east-1:042174868503:stack/amplify-pathfinderreact-dev-225643/8b60d760-28d8-11ed-9f24-0e4e6f0f2121",
+      "AmplifyAppId": "d1j9qfgrsid8lp"
+    },
+    "categories": {
+      "auth": {
+        "pathfinderreact8d221df7": {}
+      }
+    }
+  }
+}
