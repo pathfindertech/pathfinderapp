@@ -1,12 +1,20 @@
 import React, { useState, useEffect } from 'react'; 
 import './App.css'; import { API } from 'aws-amplify'; 
-import { withAuthenticator } from '@aws-amplify/ui-react'; 
+import "@aws-amplify/ui-react/styles.css";
+import {
+  withAuthenticator,
+  Button,
+  Heading,
+  Image,
+  View,
+  Card,
+} from "@aws-amplify/ui-react"; 
 import { listNotes } from './graphql/queries'; 
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 
 const initialFormState = { name: '', description: '' }
 
-function App() {   const [notes, setNotes] = useState([]);   const [formData, setFormData] = useState(initialFormState);
+function App({signOut}) {   const [notes, setNotes] = useState([]);   const [formData, setFormData] = useState(initialFormState);
 
   useEffect(() => {
     fetchNotes();   }, []);
@@ -50,6 +58,7 @@ function App() {   const [notes, setNotes] = useState([]);   const [formData, se
             </div>
           ))
         }
+      <button onClick={signOut}>Sign out</button>
       </div>
       <withAuthenticator />
     </div>   ); }
