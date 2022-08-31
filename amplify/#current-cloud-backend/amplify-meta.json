@@ -40,7 +40,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pathfinderreact-dev-225643-deployment/amplify-cfn-templates/auth/pathfinderreact8d221df7-cloudformation-template.json",
         "logicalId": "authpathfinderreact8d221df7"
       },
-      "lastPushTimeStamp": "2022-08-31T03:31:15.368Z",
+      "lastPushTimeStamp": "2022-08-31T18:59:06.108Z",
       "output": {
         "UserPoolId": "us-east-1_wyRTajbPF",
         "AppClientIDWeb": "1v42acvf0q4qomo66kogqq8djr",
@@ -50,7 +50,34 @@
         "IdentityPoolName": "pathfinderreact8d221df7_identitypool_8d221df7__dev",
         "UserPoolName": "pathfinderreact8d221df7_userpool_8d221df7"
       },
-      "lastPushDirHash": "1I/RxoIEjlBDKQ+Jb79VSKOJTjk="
+      "lastPushDirHash": "jAZgLrozaPAH32MN3fBm26R91JE="
+    }
+  },
+  "api": {
+    "pathfinderreact": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "5gosdwmub5hnfd2l7w5jb26sgy",
+        "GraphQLAPIEndpointOutput": "https://xbjzcrvp7ravfg7wuelg35rvfi.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-i6q4wlzwl5hcjkgbn5ataxozye"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pathfinderreact-dev-225643-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apipathfinderreact"
+      },
+      "lastPushTimeStamp": "2022-08-31T18:59:06.108Z",
+      "lastPushDirHash": "i2vTl7DQzm5pU3mJmz2IFe+fKiw="
     }
   }
 }
